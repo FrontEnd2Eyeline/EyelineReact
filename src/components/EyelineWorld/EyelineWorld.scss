@@ -1,0 +1,52 @@
+@import '../../App.scss';
+
+.EyelineWorld {
+    background: url('../../assets/img/EyelineWorld/eyeline-world.png');
+    height: 75vw;
+    background-repeat: no-repeat;
+    background-size: contain;
+    overflow: hidden;
+    display: grid;
+    grid-template: 21vw 5vw 10vw 28vw 11vw /16vw 34vw auto 4vw;
+    .EyelineWorld__maintitle-shadow {
+        margin: 0vw 0vw 0vw 10vw;
+        grid-area: 1/2/2/4;
+        width: 100%;
+        font-size: 8.5vw;
+        opacity: 0.3;
+        color: #D9A9FF;
+        justify-self: center;
+        align-self: center;
+    }
+    .EyelineWorld__maintitle {
+        margin: 0px;
+        grid-area: 1/2/2/4;
+        align-self: center;
+        font-size: 5.3vw;
+        color: white;
+        z-index: 5;
+        justify-self: center;
+        margin-top: 7vw;
+    }
+    .EyelineWorld__title{
+        font-family: $font-Regular;
+        color: #8789F9;
+        font-size: 1.6vw;
+        margin: 0px;
+        grid-area: 2/3/2/4;
+    }
+    .EyelineWorld__subtitle{
+        font-family: $font-Bold;
+        color: #8789F9;
+        margin: 0px;
+        font-size: 3vw;
+        grid-area: 4/3/3/3;
+    }
+    .EyelineWorld__text{
+        font-family: $font-Regular;
+        color: white;
+        margin: 0px;
+        grid-area: 4/3/5/3;
+        font-size: 2vw;
+    }
+}

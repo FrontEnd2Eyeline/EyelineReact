@@ -1,0 +1,69 @@
+@import '../../App.scss';
+
+.NavbarHeader--disabled {
+    position: fixed;
+    z-index: 100;
+    display: inline-flex;
+    padding: 0vw 16vw 0vw 16vw;
+    width: 68vw;
+    justify-content: space-between;
+    margin-top: 0vw;
+    background: white;
+    filter: drop-shadow(1px -1px 5px black);
+    transition: all .3s ease;
+}
+
+.NavbarHeader--enabled {
+    position: fixed;
+    z-index: 100;
+    display: inline-flex;
+    padding: 3vw 16vw 0vw 16vw;
+    width: 68vw;
+    margin-top: 0vw;
+    justify-content: space-between;
+    background: transparent;
+    transition: all .3s ease;
+}
+
+.NavbarHeader__Logo {
+    display: inline-flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    width: 16vw;
+}
+
+.NavbarHeader__navigator {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.NavbarHeader__text {
+    color: $color-cyan;
+    text-decoration: none;
+    font-size: 1vw;
+    margin: 0 1.1vw;
+}
+
+.NavbarHeader__langtri{
+    font-size: 0.6vw
+}
+
+.NavbarHeader__lang-en{
+    text-decoration: none;
+    font-family: $font-Bold;
+    color: white;
+    padding: 1vw 1vw;
+}
+.NavbarHeader__lang-es{
+    text-decoration: none;
+    font-family: $font-Bold;
+    color: white;
+    padding: 1vw 1vw;
+}
+
+.NavbarHeader__lang-menu{
+    display: flex;
+    flex-direction: column;
+    font-size: 1vw;
+}

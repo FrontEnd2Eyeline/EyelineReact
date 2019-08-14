@@ -1,0 +1,139 @@
+@import '../../App.scss';
+.Footer{
+    grid-template: 11vw 16vw 5vw 5vw 2vw 3vw 2vw / auto 76vw auto;
+    height: 44vw;
+    background: url('../../assets/img/Footer/back-footer.png');
+    display: grid;
+    background-size: contain;
+    .Footer__Eyeline{
+        grid-area: 2/2/2/2;
+        display: grid;
+        grid-template: 12vw / 12.67vw 12.67vw 12.67vw 12.67vw 12.67vw 12.67vw;
+        .Footer__Eyeline-EyePayCash{
+            background: url('../../assets/img/Footer/ball.png');
+            background-size: 85%;
+            background-repeat: no-repeat;
+            background-position: center;
+            display: grid;
+            grid-template: 12vw /12.34vw;
+            .Footer__Eyeline-EyePayCash-icon{
+                width: 55%;
+                height: 55%;
+                align-self: center;
+                justify-self: center;
+                .Footer__Eyeline-EyePayCash-resize{
+                    width: 100%;
+                }
+            }
+        }
+        .Footer__Eyeline-EyePayCard{
+            background: url('../../assets/img/Footer/ball.png');
+            background-size: 85%;
+            background-repeat: no-repeat;
+            background-position: center;
+            display: grid;
+            .Footer__Eyeline-EyePayCard-icon{
+                width: 55%;
+                height: 55%;
+                align-self: center;
+                justify-self: center;
+                .Footer__Eyeline-EyePayCard-resize{
+                    width: 100%;
+                }
+            }
+        }
+        .Footer__Eyeline-EyeCash{
+            background: url('../../assets/img/Footer/ball.png');
+            background-size: 85%;
+            background-repeat: no-repeat;
+            background-position: center;
+            display: grid;
+            .Footer__Eyeline-EyeCash-icon{
+                width: 55%;
+                height: 55%;
+                align-self: center;
+                justify-self: center;
+                .Footer__Eyeline-EyeCash-resize{
+                    width: 100%;
+                }
+            }
+        }
+        .Footer__Eyeline-EyeWallet{
+            background: url('../../assets/img/Footer/ball.png');
+            background-size: 85%;
+            background-repeat: no-repeat;
+            background-position: center;
+            display: grid;
+            .Footer__Eyeline-EyeWallet-icon{
+                width: 55%;
+                height: 55%;
+                align-self: center;
+                justify-self: center;
+                .Footer__Eyeline-EyeWallet-resize{
+                    width: 100%;
+                }
+            }
+        }
+        .Footer__Eyeline-EyeWalletPro{
+            background: url('../../assets/img/Footer/ball.png');
+            background-size: 85%;
+            background-repeat: no-repeat;
+            background-position: center;
+            display: grid;
+            .Footer__Eyeline-EyeWalletPro-icon{
+                width: 55%;
+                height: 55%;
+                align-self: center;
+                justify-self: center;
+                .Footer__Eyeline-EyeWalletPro-resize{
+                    width: 100%;
+                }
+            }
+        }
+        .Footer__Eyeline-GMM{
+            background: url('../../assets/img/Footer/ball.png');
+            background-size: 85%;
+            background-repeat: no-repeat;
+            background-position: center;
+            display: grid;
+            .Footer__Eyeline-GMM-icon{
+                width: 55%;
+                height: 55%;
+                align-self: center;
+                justify-self: center;
+            }
+            .Footer__Eyeline-GMM-resize{
+                width: 100%;
+            }
+        }
+    }
+    .Footer__Social{
+        grid-area: 4/2/5/2;
+        width: fit-content;
+        justify-self: center;
+        .Footer__Social-twitter{
+            width: 4vw;
+            padding: 0vw 1vw
+        }
+        .Footer__Social-facebook{
+            width: 4vw;
+            padding: 0vw 1vw
+        }
+        .Footer__Social-telegram{
+            width: 4vw;
+            padding: 0vw 1vw
+        }
+        .Footer__Social-instagram{
+            width: 4vw;
+            padding: 0vw 1vw
+        }
+    }
+    .Footer__Rights{
+        grid-area: 6/2/6/2;
+        justify-self: center;
+        font-family: "OpenSansSemiBold", sans-serif;
+        color: #755A9B;
+        font-size: 1.8vw;
+        margin: 0;
+    }
+}

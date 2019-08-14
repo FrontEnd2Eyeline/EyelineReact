@@ -1,0 +1,28 @@
+@import '../../App.scss';
+.Vision{
+    margin-top: 5vw;
+    width: 100vw;
+    height: 35.56vw;
+    background: linear-gradient(340deg,#3d6af515 5.5%, #756df515 50%, #ba72f615 99.9%);
+    display: grid;
+    grid-template: auto 7vw 22vw auto / 16vw 34vw 34vw 16vw;
+}
+.Vision__title{
+    color: #8789F9;
+    font-family: $font-Regular;
+    grid-area: 2/3/2/4;
+    font-size: 2.2vw;
+    text-align: end;
+}
+
+.Vision__text{
+    color: #8277AF;
+    font-family: $font-Regular;
+    grid-area: 3/3/4/4;
+    font-size: 1.2vw;
+    text-align: end;
+}
+
+.Vision__Logo{
+    grid-area: 2/2/2/2;
+}

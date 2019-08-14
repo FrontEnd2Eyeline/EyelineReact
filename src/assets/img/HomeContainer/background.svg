@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1767.527" height="1184.368" viewBox="0 0 1767.527 1184.368">
+  <defs>
+    <linearGradient id="linear-gradient" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f069db"/>
+      <stop offset="0.206" stop-color="#c45ee5"/>
+      <stop offset="0.465" stop-color="#9452f0"/>
+      <stop offset="0.692" stop-color="#714af8"/>
+      <stop offset="0.879" stop-color="#5b44fd"/>
+      <stop offset="1" stop-color="#5443ff"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" x1="0" y1="0.5" x2="1" y2="0.5" xlink:href="#linear-gradient"/>
+  </defs>
+  <g id="Grupo_1581" data-name="Grupo 1581" transform="translate(-73.992 -1483.781)">
+    <path id="Trazado_286" data-name="Trazado 286" d="M74.73,2603.663a2.692,2.692,0,0,0,3.805.1l36.994-35.047a2.692,2.692,0,1,0-3.7-3.908l-36.994,35.047A2.69,2.69,0,0,0,74.73,2603.663Z" opacity="0.16" fill="url(#linear-gradient)"/>
+    <path id="Trazado_287" data-name="Trazado 287" d="M199.4,2633.258a8.721,8.721,0,0,0,12.328.333l119.861-113.552a8.721,8.721,0,0,0-12-12.662L199.73,2620.929A8.721,8.721,0,0,0,199.4,2633.258Z" opacity="0.16" fill="url(#linear-gradient)"/>
+    <path id="Trazado_288" data-name="Trazado 288" d="M271.048,2666.56a5.091,5.091,0,0,0,7.2.194l69.972-66.289a5.091,5.091,0,0,0-7-7.391l-69.971,66.289A5.092,5.092,0,0,0,271.048,2666.56Z" opacity="0.16" fill="url(#linear-gradient-3)"/>
+    <path id="Trazado_289" data-name="Trazado 289" d="M1581.94,1582.456a2.692,2.692,0,0,0,3.805.1l36.994-35.047a2.692,2.692,0,0,0-3.7-3.908l-36.995,35.047A2.691,2.691,0,0,0,1581.94,1582.456Z" opacity="0.16" fill="url(#linear-gradient-3)"/>
+    <path id="Trazado_290" data-name="Trazado 290" d="M1706.607,1612.051a8.72,8.72,0,0,0,12.328.333l119.86-113.552a8.72,8.72,0,1,0-11.995-12.661l-119.86,113.552A8.719,8.719,0,0,0,1706.607,1612.051Z" opacity="0.16" fill="url(#linear-gradient-3)"/>
+    <path id="Trazado_291" data-name="Trazado 291" d="M1577.489,2494.881a5.091,5.091,0,0,0,7.2.194l69.971-66.288a5.091,5.091,0,1,0-7-7.392l-69.972,66.289A5.091,5.091,0,0,0,1577.489,2494.881Z" opacity="0.16" fill="url(#linear-gradient-3)"/>
+  </g>
+</svg>

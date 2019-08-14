@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="138.977" height="138.977" viewBox="0 0 138.977 138.977">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.753" y1="0.069" x2="0.247" y2="0.931" gradientUnits="objectBoundingBox">
+      <stop offset="0.055" stop-color="#3d6af5"/>
+      <stop offset="0.5" stop-color="#756df5"/>
+      <stop offset="0.999" stop-color="#ba72f6"/>
+    </linearGradient>
+  </defs>
+  <g id="Grupo_1580" data-name="Grupo 1580" transform="translate(-453.36 -3762.323)">
+    <circle id="Elipse_48" data-name="Elipse 48" cx="69.488" cy="69.488" r="69.488" transform="translate(453.36 3762.323)" fill="url(#linear-gradient)"/>
+    <g id="Grupo_969" data-name="Grupo 969">
+      <path id="Trazado_1698" data-name="Trazado 1698" d="M547.248,3815.618a29.321,29.321,0,1,1-3.375-4.186" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <path id="Trazado_1699" data-name="Trazado 1699" d="M511.205,3838.166l10.806,6.2,25.237-28.75" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <circle id="Elipse_49" data-name="Elipse 49" cx="36.558" cy="36.558" r="36.558" transform="translate(486.29 3795.253)" stroke-dasharray="10" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" fill="none"/>
+      <path id="Trazado_1700" data-name="Trazado 1700" d="M516.115,3792.36l6.733-10.885,7.655,12.375" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.139"/>
+      <path id="Trazado_1701" data-name="Trazado 1701" d="M558.993,3812.85l10.61,2.594-9.387,11.084" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.139"/>
+      <path id="Trazado_1702" data-name="Trazado 1702" d="M550.862,3858.573l.882,11.835-10.134-4.149" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.139"/>
+      <path id="Trazado_1703" data-name="Trazado 1703" d="M500.012,3867.927l-6.06,2.481.842-11.3" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.139"/>
+      <path id="Trazado_1704" data-name="Trazado 1704" d="M483.659,3824.377l-7.566-8.933,10.089-2.467" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.139"/>
+    </g>
+  </g>
+</svg>

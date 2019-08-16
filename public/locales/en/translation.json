@@ -1,0 +1,72 @@
+{
+    "hero": {
+      "main1": "The best Software",
+      "main2": "in your hands",
+      "sub1": "An ecosystem of products",
+      "sub2": "that facilitate your life",
+      "join": "Join Us",
+      "aboutus": "ABOUT US"
+    },
+    "navbar": {
+      "eyeline": "EYELINE",
+      "services": "SERVICES",
+      "eyelineworld": "EYELINE WORLD",
+      "language": "LANGUAGE",
+      "english":"English",
+      "spanish":"Español"
+      },
+    "balls": {
+      "security": "Security",
+      "security-text": "We guarantee the security in the development of software from Eyeline Business and Development, using schemes that are at the forefront in today's world. We have state-of-the-art servers capable of storing important information and providing a light interaction.",
+      "results": "Results",
+      "results-text": "We develop, manage and position your software through digital strategies and community indexing that guarantee the correct consumption of the tools we create.",
+      "attention": "Attention",
+      "attention-text": "We make sure to provide a comprehensive service to our customers that provides the user with an accompaniment before, during and after delivering their software. We distinguish ourselves by providing an efficient and specialized user experience, with trained personnel and cutting-edge technology.",
+      "power": "Power",
+      "power-text": "Eyeline Business and Development provides you with a powerful ecosystem of financial software solutions that covers all the needs that the end user may need."
+    },
+    "aboutus": {
+      "title-shadow": "EYELINE",
+      "title": "EYELINE",
+      "who": "Who are we?",
+      "who-text": "Eyeline Bussiness and Development is a Financial software development company specialized in the economic sector of crypto assets.",
+      "who-text2": "It arises as a need to seek financial solutions to traditional economic models. The impact of the world economy must be combated using the possibilities offered by cryptocurrencies, among other possibilities.",
+      "who-text3": "A clear example of this affectation was the real estate bubble that occurred in 2008, generating effects in many other economic sectors and ultimately a global economic recession.",
+      "who-text4": "We develop softwares whose objective is to generate wealth and potentiate the quality of life of our direct users and indirectly facilitate the access of new Users to the new and unknown cryptoactive technology.",
+      "learn": "Learn more"
+    },
+    "services": {
+      "title-shadow": "SERVICES",
+      "title": "SERVICES",
+      "what": "What do we offer?",
+      "solutions": "CORPORATIVE SOLUTIONS",
+      "solutions-text1" : "We develop software applications for web environments tailored to your needs, we offer the client the possibility of having different user profiles and access restrictions that allow each person to obtain the right information at the right time.",
+      "solutions-text2" : "Developed web and mobile applications can be part of an Intranet or be publicly accessible through the global Internet network.",
+      "software": "SOFTWARE DEVELOPMENT",
+      "software-text1" : "Using multiple software development strategies (native Frameworks with synchronous programming languages) focused on the agility and adaptability needed in this changing environment.",
+      "software-text2" : "The team of experts deploys software solutions in record time, with a degree of quality for robust projects that can statistically be called “world class”.",
+      "systems": "SYSTEMS",
+      "systems-text" : "We offer various systems engineering services; we thoroughly analyze the requirements of your company, looking for the solution that best suits your needs. Eyeline Business and Development offers your company a comprehensive  systems consulting service and our specialty focuses on the following five areas:",
+      "systems-title1" : "System Strategy Planification",
+      "systems-text1" : "Development, implementation of plans and diagnosis of information systems according to the needs of the client or the company.",
+      "systems-title2" : "Information systems audit",
+      "systems-text2":"Data processing, review and evaluation, and analysis of system administration procedures in order to determine the efficient use of technological resources.",
+      "systems-title3":"Consulting for the acquisition and implementation of information systems",
+      "systems-text3": "Systems integration,application programming and hardware specifications.",
+      "systems-title4":"Design and development of programming tailored to the client",
+      "systems-text4":"Business applications, integration of existing systems (legacy systems), traditional programming, web programming and databases.",
+      "systems-title5": "Strategy and promotion of electronic business and e-commerce on the internet."
+    },
+    "eyeworld": {
+      "title-shadow": "EYELINE WORLD",
+      "title": "EYELINE WORLD",
+      "our": "Our Products",
+      "sub1": "Ecosystem of Solutions",
+      "sub2": "with the Eyeline Seal",
+      "text1": "Eyeline Business is the only company in the world that cares about covering all the possible needs of the direct, indirect and user customers.",
+      "text2": "We generate an ecosystem of independent software products that guarantee a user experience without disappointments or difficulties."
+    },
+    "eyelinks": {
+      "goto": "Go to site"
+    }
+}

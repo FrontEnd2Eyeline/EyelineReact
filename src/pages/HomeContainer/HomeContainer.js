@@ -19,8 +19,6 @@ const HomeContainer = () => {
             <Services />
             <EyelineWorld />
             <EyelineBackLinks />
-            {/* 
-            <a href="https://www.facebook.com/" target='_blank' rel="noopener noreferrer"> Face</a> */}
             <Footer/>
         </div>
     )

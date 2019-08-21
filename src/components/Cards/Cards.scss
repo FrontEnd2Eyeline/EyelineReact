@@ -83,3 +83,34 @@
     font-family: $font-Regular;
     font-size: 1.2vw;
 }
+
+@media only screen and (max-width: 1024px) and (min-width: 768px){
+
+}
+
+@media only screen and (max-width: 768px) and (min-width: 320px) {
+    .Cards{
+        display: grid;
+        grid-template: 69vw / 3vw 32vw 32vw 32vw 3vw;
+        height: 65vw;
+    }
+    .Cards__Db-title {
+        font-size: 3vw;
+    }
+    .Cards__Db-text {
+        font-size: 3vw;
+    }
+    .Cards__Admin-title {
+        font-size: 3vw;
+    }
+    .Cards__Admin-text {
+        font-size: 3vw;
+    }
+    .Cards__Apps-title {
+        font-size: 3vw;
+    }
+    .Cards__Apps-text {
+        font-size: 3vw;
+    }
+
+}

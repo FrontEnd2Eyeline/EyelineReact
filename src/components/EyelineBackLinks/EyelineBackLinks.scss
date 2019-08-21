@@ -6,184 +6,250 @@
     background-repeat: no-repeat;
     background-position: bottom;
     grid-template: 10vw 30vw 5vw 10vw 30vw 5vw 10vw 30vw 5vw 10vw 30vw 5vw 10vw 30vw 5vw 10vw 30vw 5vw  / 16vw auto 16vw;
-    .EyelineBackLinks__EyePayCash-Logo{
-        grid-area: 1/2/1/3;
-        width: 60%;
+}
+.EyelineBackLinks__EyePayCash-Logo{
+    grid-area: 1/2/1/3;
+    width: 60%;
+    justify-self: center;
+    align-self: end;
+}
+.EyelineBackLinks__EyePayCash-Banner{
+    grid-area: 2/1/2/4;
+    width: 100%;
+}
+.EyelineBackLinks__EyePayCash-goto{
+    grid-area: 1/2/1/3;
+    align-self: end;
+    justify-self: end;
+    font-size: 1.8vw;
+    color: #2E3192;
+    font-family: $font-Regular;
+    background: transparent;
+    border-color: #9A72F6;
+    border-style: solid;
+    border-radius: 1.6vw;
+    padding: 0.4vw 2.1vw;
+    filter: drop-shadow(0vw 0.2vw 0.2vw rgba(211, 31, 255, 0.34));
+    text-decoration: none;
+}
+.EyelineBackLinks__EyePayCard-Logo{
+    grid-area: 4/2/4/3;
+    width: 60%;
+    justify-self: center;
+    align-self: end;
+}
+.EyelineBackLinks__EyePayCard-Banner{
+    grid-area: 5/1/5/4;
+    width: 100%;
+}
+.EyelineBackLinks__EyePayCard-goto{
+    grid-area: 4/2/4/3;
+    align-self: end;
+    justify-self: end;
+    font-size: 1.8vw;
+    color: #2E3192;
+    font-family: $font-Regular;
+    background: transparent;
+    border-color: #9A72F6;
+    border-style: solid;
+    border-radius: 1.6vw;
+    padding: 0.4vw 2.1vw;
+    filter: drop-shadow(0vw 0.2vw 0.2vw rgba(211, 31, 255, 0.34));
+    text-decoration: none;
+}
+.EyelineBackLinks__EyeCash-Logo{
+    grid-area: 7/2/7/3;
+    width: 60%;
+    justify-self: center;
+    align-self: end;
+}
+.EyelineBackLinks__EyeCash-Banner{
+    grid-area: 8/1/8/4;
+    width: 100%;
+}
+.EyelineBackLinks__EyeCash-goto{
+    grid-area: 7/2/7/3;
+    align-self: end;
+    justify-self: end;
+    font-size: 1.8vw;
+    color: #2E3192;
+    font-family: $font-Regular;
+    background: transparent;
+    border-color: #9A72F6;
+    border-style: solid;
+    border-radius: 1.6vw;
+    padding: 0.4vw 2.1vw;
+    filter: drop-shadow(0vw 0.2vw 0.2vw rgba(211, 31, 255, 0.34));
+    text-decoration: none;
+}
+.EyelineBackLinks__EyeWallet-Logo{
+    grid-area: 10/2/10/3;
+    width: 60%;
+    justify-self: center;
+    align-self: end;
+}
+.EyelineBackLinks__EyeWallet-Banner{
+    grid-area: 11/1/11/4;
+    width: 100%;
+}
+.EyelineBackLinks__EyeWallet-goto{
+    grid-area: 10/2/10/3;
+    align-self: end;
+    justify-self: end;
+    font-size: 1.8vw;
+    color: #2E3192;
+    font-family: $font-Regular;
+    background: transparent;
+    border-color: #9A72F6;
+    border-style: solid;
+    border-radius: 1.6vw;
+    padding: 0.4vw 2.1vw;
+    filter: drop-shadow(0vw 0.2vw 0.2vw rgba(211, 31, 255, 0.34));
+    text-decoration: none;
+}
+.EyelineBackLinks__GMM-Logo{
+    grid-area: 13/2/13/3;
+    width: 60%;
+    justify-self: center;
+    align-self: end;
+}
+.EyelineBackLinks__GMM-Banner{
+    grid-area: 14/1/14/4;
+    width: 100%;
+}
+.EyelineBackLinks__GMM-goto{
+    grid-area: 13/2/13/3;
+    align-self: end;
+    justify-self: end;
+    font-size: 1.8vw;
+    color: #2E3192;
+    font-family: $font-Regular;
+    background: transparent;
+    border-color: #9A72F6;
+    border-style: solid;
+    border-radius: 1.6vw;
+    padding: 0.4vw 2.1vw;
+    filter: drop-shadow(0vw 0.2vw 0.2vw rgba(211, 31, 255, 0.34));
+    text-decoration: none;
+}
+.EyelineBackLinks__EyeWalletPro-Logo{
+    grid-area: 16/2/16/3;
+    width: 60%;
+    justify-self: center;
+    align-self: end;
+}
+.EyelineBackLinks__EyeWalletPro-Banner{
+    grid-area: 17/1/17/4;
+    width: 100%;
+}
+.EyelineBackLinks__EyeWalletPro-goto{
+    grid-area: 16/2/16/3;
+    align-self: end;
+    justify-self: end;
+    font-size: 1.8vw;
+    color: #2E3192;
+    font-family: $font-Regular;
+    background: transparent;
+    border-color: #9A72F6;
+    border-style: solid;
+    border-radius: 1.6vw;
+    padding: 0.4vw 2.1vw;
+    filter: drop-shadow(0vw 0.2vw 0.2vw rgba(211, 31, 255, 0.34));
+    text-decoration: none;
+}
+.EyelineBackLinks__EyePayCash-goto:hover{
+    color: white;
+    background:#9A72F6; 
+    transition: all 0.3s linear;
+}
+.EyelineBackLinks__EyePayCard-goto:hover{
+    color: white;
+    background:#9A72F6; 
+    transition: all 0.3s linear;
+}
+.EyelineBackLinks__EyeCash-goto:hover{
+    color: white;
+    background:#9A72F6; 
+    transition: all 0.3s linear;
+}
+.EyelineBackLinks__EyeWallet-goto:hover{
+    color: white;
+    background:#9A72F6; 
+    transition: all 0.3s linear;
+}
+.EyelineBackLinks__GMM-goto:hover{
+    color: white;
+    background:#9A72F6; 
+    transition: all 0.3s linear;
+}
+.EyelineBackLinks__EyeWalletPro-goto:hover{
+    color: white;
+    background:#9A72F6; 
+    transition: all 0.3s linear;
+}
+@media only screen and (max-width: 1024px) and (min-width: 768px){
+
+}
+
+@media only screen and (max-width: 768px) and (min-width: 320px) {
+    .EyelineBackLinks {
+        grid-template: 10vw 10vw 30vw 10vw 10vw 30vw 10vw 10vw 30vw 10vw 10vw 30vw 10vw 10vw 30vw 10vw 10vw 30vw/ 16vw auto 16vw;
+        height: 300vw;
+    }
+    .EyelineBackLinks__EyePayCash-goto {
+        grid-area: 1/1/3/3;
         justify-self: center;
-        align-self: end;
+        margin-left: 15vw;
+        font-size: 3.8vw;
     }
-    .EyelineBackLinks__EyePayCash-Banner{
-        grid-area: 2/1/2/4;
-        width: 100%;
+    .EyelineBackLinks__EyePayCash-Banner {
+        grid-area: 3/1/3/4;
     }
-    .EyelineBackLinks__EyePayCash-goto{
-        grid-area: 1/2/1/3;
-        align-self: end;
-        justify-self: end;
-        font-size: 1.8vw;
-        color: #2E3192;
-        font-family: $font-Regular;
-        background: transparent;
-        border-color: #9A72F6;
-        border-style: solid;
-        border-radius: 1.6vw;
-        padding: 0.4vw 2.1vw;
-        filter: drop-shadow(0vw 0.2vw 0.2vw rgba(211, 31, 255, 0.34));
-        text-decoration: none;
-    }
-    .EyelineBackLinks__EyePayCard-Logo{
-        grid-area: 4/2/4/3;
-        width: 60%;
+    .EyelineBackLinks__EyePayCard-goto {
+        grid-area: 1/1/6/6;
         justify-self: center;
-        align-self: end;
+        margin-left: 0vw;
+        font-size: 3.8vw;
     }
-    .EyelineBackLinks__EyePayCard-Banner{
-        grid-area: 5/1/5/4;
-        width: 100%;
+    .EyelineBackLinks__EyePayCard-Banner {
+        grid-area: 6/1/6/4;
     }
-    .EyelineBackLinks__EyePayCard-goto{
-        grid-area: 4/2/4/3;
-        align-self: end;
-        justify-self: end;
-        font-size: 1.8vw;
-        color: #2E3192;
-        font-family: $font-Regular;
-        background: transparent;
-        border-color: #9A72F6;
-        border-style: solid;
-        border-radius: 1.6vw;
-        padding: 0.4vw 2.1vw;
-        filter: drop-shadow(0vw 0.2vw 0.2vw rgba(211, 31, 255, 0.34));
-        text-decoration: none;
-    }
-    .EyelineBackLinks__EyeCash-Logo{
-        grid-area: 7/2/7/3;
-        width: 60%;
+    .EyelineBackLinks__EyeCash-goto {
+        grid-area: 8/2/8/3;
         justify-self: center;
-        align-self: end;
+        margin-left: 0vw;
+        font-size: 3.8vw;
     }
-    .EyelineBackLinks__EyeCash-Banner{
-        grid-area: 8/1/8/4;
-        width: 100%;
+    .EyelineBackLinks__EyeCash-Banner {
+        grid-area: 9/1/9/4;
     }
-    .EyelineBackLinks__EyeCash-goto{
-        grid-area: 7/2/7/3;
-        align-self: end;
-        justify-self: end;
-        font-size: 1.8vw;
-        color: #2E3192;
-        font-family: $font-Regular;
-        background: transparent;
-        border-color: #9A72F6;
-        border-style: solid;
-        border-radius: 1.6vw;
-        padding: 0.4vw 2.1vw;
-        filter: drop-shadow(0vw 0.2vw 0.2vw rgba(211, 31, 255, 0.34));
-        text-decoration: none;
-    }
-    .EyelineBackLinks__EyeWallet-Logo{
-        grid-area: 10/2/10/3;
-        width: 60%;
+
+    .EyelineBackLinks__EyeWallet-goto {
+        grid-area: 11/2/11/3;
         justify-self: center;
-        align-self: end;
+        margin-left: 0vw;
+        font-size: 3.8vw;
     }
-    .EyelineBackLinks__EyeWallet-Banner{
-        grid-area: 11/1/11/4;
-        width: 100%;
+    .EyelineBackLinks__EyeWallet-Banner {
+        grid-area: 12/1/12/4;
     }
-    .EyelineBackLinks__EyeWallet-goto{
-        grid-area: 10/2/10/3;
-        align-self: end;
-        justify-self: end;
-        font-size: 1.8vw;
-        color: #2E3192;
-        font-family: $font-Regular;
-        background: transparent;
-        border-color: #9A72F6;
-        border-style: solid;
-        border-radius: 1.6vw;
-        padding: 0.4vw 2.1vw;
-        filter: drop-shadow(0vw 0.2vw 0.2vw rgba(211, 31, 255, 0.34));
-        text-decoration: none;
+    .EyelineBackLinks__GMM-Banner {
+        grid-area: 15/1/15/4;
     }
-    .EyelineBackLinks__GMM-Logo{
-        grid-area: 13/2/13/3;
-        width: 60%;
+    .EyelineBackLinks__GMM-goto {
+        grid-area: 14/2/14/3;
         justify-self: center;
-        align-self: end;
+        margin-left: 0vw;
+        font-size: 3.8vw;
     }
-    .EyelineBackLinks__GMM-Banner{
-        grid-area: 14/1/14/4;
-        width: 100%;
+    .EyelineBackLinks__EyeWalletPro-Banner {
+        grid-area: 18/1/18/4;
     }
-    .EyelineBackLinks__GMM-goto{
-        grid-area: 13/2/13/3;
-        align-self: end;
-        justify-self: end;
-        font-size: 1.8vw;
-        color: #2E3192;
-        font-family: $font-Regular;
-        background: transparent;
-        border-color: #9A72F6;
-        border-style: solid;
-        border-radius: 1.6vw;
-        padding: 0.4vw 2.1vw;
-        filter: drop-shadow(0vw 0.2vw 0.2vw rgba(211, 31, 255, 0.34));
-        text-decoration: none;
-    }
-    .EyelineBackLinks__EyeWalletPro-Logo{
-        grid-area: 16/2/16/3;
-        width: 60%;
+    .EyelineBackLinks__EyeWalletPro-goto {
+        grid-area: 17/2/17/3;
         justify-self: center;
-        align-self: end;
+        margin-left: 0vw;
+        font-size: 3.8vw;
     }
-    .EyelineBackLinks__EyeWalletPro-Banner{
-        grid-area: 17/1/17/4;
-        width: 100%;
-    }
-    .EyelineBackLinks__EyeWalletPro-goto{
-        grid-area: 16/2/16/3;
-        align-self: end;
-        justify-self: end;
-        font-size: 1.8vw;
-        color: #2E3192;
-        font-family: $font-Regular;
-        background: transparent;
-        border-color: #9A72F6;
-        border-style: solid;
-        border-radius: 1.6vw;
-        padding: 0.4vw 2.1vw;
-        filter: drop-shadow(0vw 0.2vw 0.2vw rgba(211, 31, 255, 0.34));
-        text-decoration: none;
-    }
-    .EyelineBackLinks__EyePayCash-goto:hover{
-        color: white;
-        background:#9A72F6; 
-        transition: all 0.3s linear;
-    }
-    .EyelineBackLinks__EyePayCard-goto:hover{
-        color: white;
-        background:#9A72F6; 
-        transition: all 0.3s linear;
-    }
-    .EyelineBackLinks__EyeCash-goto:hover{
-        color: white;
-        background:#9A72F6; 
-        transition: all 0.3s linear;
-    }
-    .EyelineBackLinks__EyeWallet-goto:hover{
-        color: white;
-        background:#9A72F6; 
-        transition: all 0.3s linear;
-    }
-    .EyelineBackLinks__GMM-goto:hover{
-        color: white;
-        background:#9A72F6; 
-        transition: all 0.3s linear;
-    }
-    .EyelineBackLinks__EyeWalletPro-goto:hover{
-        color: white;
-        background:#9A72F6; 
-        transition: all 0.3s linear;
-    }
+    
 }

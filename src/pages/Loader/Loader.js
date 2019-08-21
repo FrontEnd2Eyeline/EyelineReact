@@ -3,8 +3,15 @@ import './Loader.scss'
 
 const HomeContainer = () => {
     return (
-        <div className="Loader">
-            <h1>CARGANDO</h1>
+        <div className="Loader-Container">
+            <div className="Loader">
+            <div class="Loader__Face">
+                <div class="Loader__Face-Circle"></div>
+            </div>
+            <div class="Loader__Face">
+                <div class="Loader__Face-Circle"></div>
+            </div>
+            </div>
         </div>
     )
 }

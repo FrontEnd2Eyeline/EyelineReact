@@ -26,3 +26,27 @@
     grid-area: 2/4/5/3;
     width: 100%;
 }
+
+@media only screen and (max-width: 1024px) and (min-width: 768px){
+
+}
+
+@media only screen and (max-width: 768px) and (min-width: 320px) {
+    .Mission {
+        width: 100vw;
+        height: 100vw;
+        grid-template: 5vw 7vw 22vw auto / 16vw 34vw 34vw 16vw;
+    }
+    .Mission__title {
+        font-size: 5.2vw;
+        margin: 0vw;
+    }
+    .Mission__text {
+        font-size: 3.2vw;
+    }
+    .Mission__Logo {
+        grid-area: 2/5/5/3;
+        width: 90%;
+        align-self: center;
+    }
+}

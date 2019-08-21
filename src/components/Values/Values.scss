@@ -4,22 +4,22 @@
     display: flex;
     padding: 0vw 16vw 0vw 16vw;
     justify-content: center;
-    .Values__title-shadow{
-        color: #D9A9FF;
-        opacity: 0.3;
-        font-size: 5.7vw;
-        position: relative;
-        margin: 5vw -2vw 0vw 0vw;
-    }
-    .Values__title-main{
-        color: #1B1464;
-        font-size: 4.1vw;
-        z-index: 5;
-        position: relative;
-        margin: 8vw 0vw 1vw -18.8vw;
-    }
 }
 
+.Values__title-shadow{
+    color: #D9A9FF;
+    opacity: 0.3;
+    font-size: 5.7vw;
+    position: relative;
+    margin: 5vw -2vw 0vw 0vw;
+}
+.Values__title-main{
+    color: #1B1464;
+    font-size: 4.1vw;
+    z-index: 5;
+    position: relative;
+    margin: 8vw 0vw 1vw -18.8vw;
+}
 
 .Values{
     margin-top: 5vw;
@@ -92,4 +92,54 @@
     font-family: $font-Regular;
     grid-area: 3/4/3/4;
     font-size: 1vw;
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 768px){
+
+}
+
+@media only screen and (max-width: 768px) and (min-width: 320px) {
+
+    .Values_Discipline-title {
+        font-size: 4vw;
+    }
+    .Values_Quality-title {
+        font-size: 4vw;
+    }
+    .Values_Quality-text {
+        font-size: 3vw;
+    }
+    .Values_Respect-title {
+        font-size: 4vw;
+    }
+    .Values_Discipline-text {
+        grid-area: 3/2/6/3;
+        font-size: 3vw;
+        width: 25vw;
+    }
+    .Values {
+        grid-template: 4vw 6vw 13vw 10vw auto / auto 25vw 25vw 25vw auto;
+        column-gap: 4vw;
+        height: 67vw;
+    }
+    .Values_Respect-text {
+        grid-area: 3/4/6/4;
+        font-size: 3vw;
+    }
+    .Values_Respect-img {
+        display: none;
+    }
+    .Values_Quality-img {
+        display: none;
+    }
+    .Values_Discipline-img {
+        display: none;
+    }
+    .Values__title-shadow {
+        font-size: 10vw;
+    }
+    .Values__title-main {
+        font-size: 9vw;
+        margin: 8vw 0vw 1vw -41.8vw;
+    }
 }

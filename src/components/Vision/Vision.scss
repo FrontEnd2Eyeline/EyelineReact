@@ -27,3 +27,28 @@
     grid-area: 2/2/2/2;
     width: 100%;
 }
+
+@media only screen and (max-width: 1024px) and (min-width: 768px){
+
+}
+
+@media only screen and (max-width: 768px) and (min-width: 320px) {
+    .Vision {
+        width: 100vw;
+        height: 100vw;
+        grid-template: 5vw 7vw 22vw auto / 16vw 34vw 34vw 16vw;
+    }
+    .Vision__title {
+        font-size: 5.2vw;
+        margin: 0vw;
+    }
+    .Vision__text {
+        font-size: 3.7vw;
+        grid-area: 3/3/5/4;
+    }
+    .Vision__Logo {
+        grid-area: 1/1/5/3;
+        width: 100%;
+        align-self: center;
+    }
+}

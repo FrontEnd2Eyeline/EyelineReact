@@ -1,5 +1,77 @@
-.Loader{
-    background: url('../../assets/img/HomeContainer/background.svg');
-    background-repeat: round;
-    background-position: left;
+.Loader-Container{
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.733);
+    display: grid
+}
+
+.Loader {
+    margin: 0;
+    grid-area: 1/1/1/1;
+	align-self: center;
+	justify-self: center;
+    background-color: rgba(0, 0, 0, 0);
+    background-size: cover;
+    width: 20em;
+    height: 20em;
+    font-size: 15px;
+    position: relative;
+    .Loader__Face {
+        position: absolute;
+        border-radius: 50%;
+        border-style: solid;
+        animation: animate 3s linear infinite;
+        .Loader__Face-Circle {
+            position: absolute;
+            width: 50%;
+            height: 0.1em;
+            top: 50%;
+            left: 50%;
+            background-color: transparent;
+            transform: rotate(var(--deg));
+            transform-origin: left;
+        }
+        .Loader__Face-Circle::before {
+            position: absolute;
+            top: -0.5em;
+            right: -0.5em;
+            content: '';
+            width: 1em;
+            height: 1em;
+            background-color: currentColor;
+            border-radius: 50%;
+            box-shadow: 0 0 2em,
+                        0 0 4em,
+                        0 0 6em,
+                        0 0 8em,
+                        0 0 10em,
+                        0 0 0 0.5em rgba(255, 255, 0, 0.1);
+        }
+    }
+    .Loader__Face:nth-child(1) {
+        width: 100%;
+        height: 100%;
+        color: #6B48FA;
+        border-color: currentColor transparent transparent currentColor;
+        border-width: 0.2em 0.2em 0em 0em;
+        --deg: -45deg;
+        animation-direction: normal;
+    }
+    .Loader__Face:nth-child(2) {
+        width: 70%;
+        height: 70%;
+        color: rgb(189, 138, 223);
+        border-color: currentColor currentColor transparent transparent;
+        border-width: 0.2em 0em 0em 0.2em;
+        --deg: -135deg;
+        animation-direction: reverse;
+        margin: 3vw 0vw 0vw 2vw;
+    }
+}
+
+
+
+@keyframes animate {
+    to {
+        transform: rotate(1turn);
+    }
 }

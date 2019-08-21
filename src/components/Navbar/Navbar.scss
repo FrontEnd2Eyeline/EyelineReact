@@ -36,6 +36,7 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
+    flex-direction: row;
 }
 
 .NavbarHeader__text {
@@ -71,4 +72,89 @@
     display: flex;
     flex-direction: column;
     font-size: 1vw;
+}
+
+.NavbarHeader__Hamburger{
+    display: none
+}
+
+
+@media only screen and (max-width: 1024px) and (min-width: 768px){
+    .NavbarHeader__text {
+        font-size: 2.4vw;
+    }
+    .NavbarHeader__Logo {
+        width: 23vw;
+    }
+    .NavbarHeader__Hamburger{
+        display: block;
+        align-self: center;
+        .NavbarHeader__Hamburger-line{
+            width: 4vw;
+            height: 0.3vw;
+            display: block;
+            background-color: $color-cyan;
+            margin: 0.8vw auto;
+        }
+    }
+    .NavbarHeader__navigator{
+        display: none
+    }
+    .NavbarHeader__navigator-popup{
+        display: flex;
+        flex-direction: column;
+    }
+    .NavbarHeader__langtri {
+        font-size: 1.6vw;
+    }
+    .NavbarHeader__lang-en {
+        font-size: 2vw;
+    }
+    .NavbarHeader__lang-es {
+        font-size: 2vw;
+    }
+}
+
+@media only screen and (max-width: 768px) and (min-width: 320px) {
+    .NavbarHeader__text {
+        font-size: 5vw !important;
+    }
+    .NavbarHeader__Logo {
+        width: 32vw;
+    }
+    .NavbarHeader__navigator{
+        display: none
+    }
+    .NavbarHeader__navigator-popup{
+        display: flex;
+        flex-direction: column;
+    }
+    .NavbarHeader__Hamburger {
+        display: block;
+        align-self: center;
+        height: 4vw;
+    }
+    .NavbarHeader__Hamburger{
+        display: block;
+        align-self: center;
+        .NavbarHeader__Hamburger-line{
+            width: 6vw;
+            height: 0.6vw;
+            display: block;
+            background-color: #839DCC;
+            margin: 0.8vw auto;
+        }
+    }
+    .NavbarHeader__langtri {
+        font-size: 1.6vw;
+    }
+    .NavbarHeader__lang-en {
+        font-size: 3vw;
+    }
+    .NavbarHeader__lang-es {
+        font-size: 3vw;
+    }
+    .NavbarHeader__text {
+        font-size: 3vw;
+    }
 }

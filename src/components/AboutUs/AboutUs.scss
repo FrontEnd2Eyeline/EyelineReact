@@ -3,63 +3,62 @@
 .AboutUs__title-flex{
     display: flex;
     padding: 0vw 16vw 0vw 16vw;
-    .AboutUs__title-shadow{
-        color: #D9A9FF;
-        opacity: 0.3;
-        font-size: 4.4vw;
-        position: relative;
-        margin: 5vw -2vw 0vw 0vw;
-    }
-    .AboutUs__title-main{
-        color: #1B1464;
-        font-size: 3.1vw;
-        z-index: 5;
-        position: relative;
-        margin: 7vw 0vw 1vw -13vw;
-    }
+}
+.AboutUs__title-shadow{
+    color: #D9A9FF;
+    opacity: 0.3;
+    font-size: 4.4vw;
+    position: relative;
+    margin: 5vw -2vw 0vw 0vw;
+}
+.AboutUs__title-main{
+    color: #1B1464;
+    font-size: 3.1vw;
+    z-index: 5;
+    position: relative;
+    margin: 7vw 0vw 1vw -13vw;
 }
 
 .AboutUs {
     background: linear-gradient(305deg, rgba(61, 106, 245, 0.1) 5.5%, rgba(117, 109, 245, 0.1) 50%, rgba(186, 114, 246, 0.1) 99.9%);
     display: grid;
     grid-template: 5vw 26vw 3vw 2vw / 16vw 34vw 34vw 16vw;
-    .AboutUs__who {
-        grid-area: 1/2/1/2;
-        color: #8789F9;
-        font-family: $font-Regular;
-        margin: 1vw 0vw 0vw 0vw;
-        font-size: 2vw;
-    }
-    .AboutUs__text{
-        grid-area: 2/2/2/2;
-        color: #8277AF;
-        font-family: $font-Regular;
-        font-size: 1vw;
-    }
-    .AboutUs__button {
-        grid-area: 3/2/3/2;
-        border-radius: 13.93px;
-        background: linear-gradient(345deg, #f069db 0%, #5443ff 100%);
-        box-shadow: 0px 8px 13px rgba(211, 31, 255, 0.44);
-        width: 40%;
-        justify-self: center;
-        transition: all .7s ease;
-        .AboutUs__button-text{
-            text-align: center;
-            color: white;
-            font-family: $font-Bold;
-            margin: 0.8vw;
-            text-decoration: none;
-            font-size: 1vw;
-        }
-    }
-    .AboutUs__image{
-        grid-area: 1/3/4/5;
-        width: 98%;
-        margin-top: -5vw;
-    }
 }
-
+.AboutUs__who {
+    grid-area: 1/2/1/2;
+    color: #8789F9;
+    font-family: $font-Regular;
+    margin: 1vw 0vw 0vw 0vw;
+    font-size: 2vw;
+}
+.AboutUs__text{
+    grid-area: 2/2/2/2;
+    color: #8277AF;
+    font-family: $font-Regular;
+    font-size: 1vw;
+}
+.AboutUs__button {
+    grid-area: 3/2/3/2;
+    border-radius: 13.93px;
+    background: linear-gradient(345deg, #f069db 0%, #5443ff 100%);
+    box-shadow: 0px 8px 13px rgba(211, 31, 255, 0.44);
+    width: 40%;
+    justify-self: center;
+    transition: all .7s ease;
+}
+.AboutUs__button-text{
+    text-align: center;
+    color: white;
+    font-family: $font-Bold;
+    margin: 0.8vw;
+    text-decoration: none;
+    font-size: 1vw;
+}
+.AboutUs__image{
+    grid-area: 1/3/4/5;
+    width: 98%;
+    margin-top: -5vw;
+}
 .AboutUs__button:hover {
     grid-area: 3/2/3/2;
     border-radius: 13.93px;
@@ -68,4 +67,64 @@
     width: 40%;
     justify-self: center;
     transition: all .7s ease;
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 768px){
+    .AboutUs {
+        grid-template: 5vw 60vw 4.6vw 2vw / 16vw 34vw 34vw 16vw;
+    }
+    .AboutUs__title-shadow{
+        font-size: 5.4vw;
+    }
+    .AboutUs__title-main{
+        font-size: 4.1vw;
+    }
+    .AboutUs__who {
+        font-size: 3vw;
+    }
+    .AboutUs__text {
+        font-size: 1.6vw;
+    }
+    .AboutUs__button-text {
+        margin: 1.4vw;
+        font-size: 1.3vw;
+    }
+    .AboutUs__image {
+        margin-top: 10vw;
+    }
+}
+
+@media only screen and (max-width: 768px) and (min-width: 320px) {
+    .AboutUs{
+        grid-template: 12vw 196vw 26vw 116vw / 5vw 90vw 5vw;
+        height: 345vw;
+    }
+    .AboutUs__image {
+        grid-area: 4/2/4/2;
+        width: 100%;
+        margin-top: 0;
+    }
+    .AboutUs__button {
+        width: 100%;
+        display: grid;
+    }
+    .AboutUs__button-text {
+        justify-self: center;
+        align-self: center;
+        font-size: 8vw;
+    }
+    .AboutUs__title-main {
+        font-size: 12.1vw;
+        margin: 11vw 0vw 2vw -47vw;
+    }
+    .AboutUs__title-shadow {
+        font-size: 13.4vw;
+    }
+    .AboutUs__who {
+        font-size: 7vw;
+    }
+    .AboutUs__text {
+        grid-area: 2/2/4/4;
+        font-size: 5vw;
+    }
 }

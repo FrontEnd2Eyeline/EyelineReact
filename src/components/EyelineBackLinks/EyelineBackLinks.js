@@ -20,6 +20,7 @@ import EyeWalletProBanner from '../../assets/img/EyelineBacklinks/EyeWalletProBa
 import EyeWalletProBannerEn from '../../assets/img/EyelineBacklinks/EyeWalletProBanner-en.png'
 import { useTranslation } from 'react-i18next';
 import i18next from 'i18next';
+import ReactWOW from 'react-wow'
 
 const EyelineBackLinks = () => {
     const { t } = useTranslation();
@@ -27,24 +28,24 @@ const EyelineBackLinks = () => {
         <div>
         { i18next.language === 'es' ? (            
             <div id="links" className="EyelineBackLinks">
-            <img className="EyelineBackLinks__EyePayCash-Logo" src={EyePayCashLogo} alt="EyePayCash Logo"/>
-            <img className="EyelineBackLinks__EyePayCash-Banner" src={EyePayCashBanner} alt="EyePayCash Banner"/>
-            <a className="EyelineBackLinks__EyePayCash-goto" href="https://eyepaycash.co/">{t('eyelinks.goto')}</a>
-            <img className="EyelineBackLinks__EyePayCard-Logo" src={EyePayCardLogo} alt="EyePayCard Logo"/>
-            <img className="EyelineBackLinks__EyePayCard-Banner" src={EyePayCardBanner} alt="EyePayCard Banner"/>
-            <a className="EyelineBackLinks__EyePayCard-goto" href="https://eyepaycard.co/">{t('eyelinks.goto')}</a>
-            <img className="EyelineBackLinks__EyeCash-Logo" src={EyeCashLogo} alt="EyeCash Logo"/>
-            <img className="EyelineBackLinks__EyeCash-Banner" src={EyeCashBanner} alt="EyeCash Banner"/>
-            <a className="EyelineBackLinks__EyeCash-goto" href="https://eyecash.io/">{t('eyelinks.goto')}</a>
-            <img className="EyelineBackLinks__EyeWallet-Logo" src={EyeWalletLogo} alt="EyeWallet Logo"/>
-            <img className="EyelineBackLinks__EyeWallet-Banner" src={EyeWalletBanner} alt="EyeWallet Banner"/>
-            <a className="EyelineBackLinks__EyeWallet-goto" href="https://eyewallet.com/">{t('eyelinks.goto')}</a>
-            <img className="EyelineBackLinks__GMM-Logo" src={GMMLogo} alt="GMM Global Money Management Logo"/>
-            <img className="EyelineBackLinks__GMM-Banner" src={GMMBanner} alt="GMM Global Money Management Banner"/>
-            <a className="EyelineBackLinks__GMM-goto" href="https://gmmclub.com/">{t('eyelinks.goto')}</a>
-            <img className="EyelineBackLinks__EyeWalletPro-Logo" src={EyeWalletProLogo} alt="EyeCash Logo"/>
-            <img className="EyelineBackLinks__EyeWalletPro-Banner" src={EyeWalletProBanner} alt="EyeCash Banner"/>
-            <a className="EyelineBackLinks__EyeWalletPro-goto" href="https://eyewalletpro.com/">{t('eyelinks.goto')}</a>
+            <ReactWOW animation='fadeInUp' duration='1s' delay='0s'><img className="EyelineBackLinks__EyePayCash-Logo" src={EyePayCashLogo} alt="EyePayCash Logo"/></ReactWOW>
+            <ReactWOW animation='fadeInUp' duration='1s' delay='0s'><img className="EyelineBackLinks__EyePayCash-Banner" src={EyePayCashBanner} alt="EyePayCash Banner"/></ReactWOW>
+            <ReactWOW animation='fadeInUp' duration='1s' delay='0s'><a className="EyelineBackLinks__EyePayCash-goto" href="https://eyepaycash.co/">{t('eyelinks.goto')}</a></ReactWOW>
+            <ReactWOW animation='fadeInUp' duration='1s' delay='0s'><img className="EyelineBackLinks__EyePayCard-Logo" src={EyePayCardLogo} alt="EyePayCard Logo"/></ReactWOW>
+            <ReactWOW animation='fadeInUp' duration='1s' delay='0s'><img className="EyelineBackLinks__EyePayCard-Banner" src={EyePayCardBanner} alt="EyePayCard Banner"/></ReactWOW>
+            <ReactWOW animation='fadeInUp' duration='1s' delay='0s'><a className="EyelineBackLinks__EyePayCard-goto" href="https://eyepaycard.co/">{t('eyelinks.goto')}</a></ReactWOW>
+            <ReactWOW animation='fadeInUp' duration='1s' delay='0s'><img className="EyelineBackLinks__EyeCash-Logo" src={EyeCashLogo} alt="EyeCash Logo"/></ReactWOW>
+            <ReactWOW animation='fadeInUp' duration='1s' delay='0s'><img className="EyelineBackLinks__EyeCash-Banner" src={EyeCashBanner} alt="EyeCash Banner"/></ReactWOW>
+            <ReactWOW animation='fadeInUp' duration='1s' delay='0s'><a className="EyelineBackLinks__EyeCash-goto" href="https://eyecash.io/">{t('eyelinks.goto')}</a></ReactWOW>
+            <ReactWOW animation='fadeInUp' duration='1s' delay='0s'><img className="EyelineBackLinks__EyeWallet-Logo" src={EyeWalletLogo} alt="EyeWallet Logo"/></ReactWOW>
+            <ReactWOW animation='fadeInUp' duration='1s' delay='0s'><img className="EyelineBackLinks__EyeWallet-Banner" src={EyeWalletBanner} alt="EyeWallet Banner"/></ReactWOW>
+            <ReactWOW animation='fadeInUp' duration='1s' delay='0s'><a className="EyelineBackLinks__EyeWallet-goto" href="https://eyewallet.com/">{t('eyelinks.goto')}</a></ReactWOW>
+            <ReactWOW animation='fadeInUp' duration='1s' delay='0s'><img className="EyelineBackLinks__GMM-Logo" src={GMMLogo} alt="GMM Global Money Management Logo"/></ReactWOW>
+            <ReactWOW animation='fadeInUp' duration='1s' delay='0s'><img className="EyelineBackLinks__GMM-Banner" src={GMMBanner} alt="GMM Global Money Management Banner"/></ReactWOW>
+            <ReactWOW animation='fadeInUp' duration='1s' delay='0s'><a className="EyelineBackLinks__GMM-goto" href="https://gmmclub.com/">{t('eyelinks.goto')}</a></ReactWOW>
+            <ReactWOW animation='fadeInUp' duration='1s' delay='0s'><img className="EyelineBackLinks__EyeWalletPro-Logo" src={EyeWalletProLogo} alt="EyeCash Logo"/></ReactWOW>
+            <ReactWOW animation='fadeInUp' duration='1s' delay='0s'><img className="EyelineBackLinks__EyeWalletPro-Banner" src={EyeWalletProBanner} alt="EyeCash Banner"/></ReactWOW>
+            <ReactWOW animation='fadeInUp' duration='1s' delay='0s'><a className="EyelineBackLinks__EyeWalletPro-goto" href="https://eyewalletpro.com/">{t('eyelinks.goto')}</a></ReactWOW>
             </div>
             ) : (
             <div id="links" className="EyelineBackLinks">

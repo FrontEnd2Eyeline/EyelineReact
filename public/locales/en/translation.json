@@ -68,5 +68,31 @@
     },
     "eyelinks": {
       "goto": "Go to site"
-    }
+    },
+    "cards": {
+      "admin-title": "DATABASES ADMINISTRATION",
+      "admin-text": "We understand the importance of an effective database management for a company or business, we are experts in construction and infrastructure management associated with AWS (Amazon Web Services), and capable databases of storing large volumes of information, and all information is encrypted and secure for customer peace of mind.",
+      "mobile-title": "MOBILE APPLICATION DEVELOPMENT ADMINISTRATION",
+      "mobile-text": "We have a qualified team of mobile technology developers adaptable to all existing devices and operating systems.",
+      "software-title": "ADMINISTRATION SOFTWARE",
+      "software-text": "New technologies are the best partners for a client or company that wants to optimize processes and save costs, we are able to develop functional software that covers specific needs such as billing, accounting, storage, among others."
+    },
+    "mission": {
+      "title":"Mission",
+      "text":"As a technology company we will revolutionize the digital world with the development of comprehensive, timely and secure software for our direct users. We market effective, aesthetic and innovative mobile and web applications with the latest technologies that the market offers us."
+    },
+    "vision": {
+      "title":"Vision",
+      "text":"By 2020 we will position ourselves as the leading software development company in Colombia and will occupy the first places in Latin America, as a technological and innovation benchmark."
+    },
+    "values":{
+      "title-shadow":"VALORES",
+      "title":"VALORES",
+      "discipline-title":"Disciplina",
+      "discipline-text":"Constantemente nos preocupamos por dar a nuestros desarrollos la excelencia que merecen nuestros usuarios.",
+      "quality-title":"Calidad",
+      "quality-text":"Nos dedicamos a producir constantemente resultados que superen las expectativas de nuestros usuarios.",
+      "respect-title":"Respeto",
+      "respect-text":"Valoramos nuestro trabajo y a nuestros clientes, brindándoles lo mejor de nuestros productos."
+    } 
 }

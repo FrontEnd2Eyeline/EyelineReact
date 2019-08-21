@@ -1,13 +1,14 @@
 import React from 'react'
 import './Vision.scss' 
 import VisionLogo from '../../assets/img/Vision/Vision.svg'
+import { useTranslation } from 'react-i18next';
+
 const Vision = () => {
+    const { t } = useTranslation();
     return (
         <div className="Vision">
-        <h2 className="Vision__title">Visión</h2>
-            <h3 className="Vision__text">Para el año 2020 nos posicionaremos como la compañía líder en desarrollo de
-            software en Colombia y ocuparemos los primeros lugares en Latinoamérica, como
-            referente tecnológico y de innovación.</h3>
+        <h2 className="Vision__title">{t('vision.title')}</h2>
+            <h3 className="Vision__text">{t('vision.text')}</h3>
         <img className="Vision__Logo" src={VisionLogo} alt="Logo Mision"/>
         </div>
     )

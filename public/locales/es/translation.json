@@ -67,6 +67,32 @@
       "text2": "Generamos un ecosistema de productos de software independientes que garantizan una experiencia de usuario sin decepciones ni dificultades."
     },
     "eyelinks": {
-      "goto": "ir al sitio"
-    }
+      "goto": "Ir al sitio"
+    },
+    "cards": {
+      "admin-title": "ADMINISTRACIÓN DE BASE DE DATOS",
+      "admin-text": "Somos conocedores de la importancia de los datos para una empresa o negocio, contamos con un grupo de profesionales especializados que le ayudarán a gestionar los datos de forma efectiva para garantizar su adecuado aprovechamiento y análisis.",
+      "mobile-title": "DESARROLLO DE APLICATIVOS MÓVILES",
+      "mobile-text": "Contamos con un grupo de trabajo en el desarrollo de aplicaciones para móviles, adaptables a todos los dispositivos móviles y sistemas operativos existentes.",
+      "software-title": "SISTEMAS DE ADMINISTRACIÓN",
+      "software-text": "Contamos con paquetes que reúnen aplicativos en el área Administrativa, Financiera, Legal, Jurídica y muchos más; relacionados con el sector público/privado aprovechando las ventajas del software en la web.."
+    },
+    "mission": {
+      "title":"Misión",
+      "text":"Como compañía del sector tecnológico vamos a revolucionar mundo digital con el desarrollo de softwares integrales, oportunos y seguros para nuestros usuarios directos. Comercializamos aplicativos móviles y web eficaces, estéticos e innovadores con las últimas tecnologías que el mercado nos ofrezca."
+    },
+    "vision": {
+      "title":"Visión",
+      "text":"Para el año 2020 nos posicionaremos como la compañía líder en desarrollo de software en Colombia y ocuparemos los primeros lugares en Latinoamérica, como referente tecnológico y de innovación."
+    },
+    "values":{
+      "title-shadow":"VALORES",
+      "title":"VALORES",
+      "discipline-title":"Disciplina",
+      "discipline-text":"Constantemente nos preocupamos por dar a nuestros desarrollos la excelencia que merecen nuestros usuarios.",
+      "quality-title":"Calidad",
+      "quality-text":"Nos dedicamos a producir constantemente resultados que superen las expectativas de nuestros usuarios.",
+      "respect-title":"Respeto",
+      "respect-text":"Valoramos nuestro trabajo y a nuestros clientes, brindándoles lo mejor de nuestros productos."
+    } 
   }
